@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :occurences
+
   resources :assertions
 
   resources :excps
